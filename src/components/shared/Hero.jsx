@@ -1,9 +1,27 @@
-import logo from "../assets/que-peca.png";
-import phone from "../assets/phone.png";
+import { useEffect } from "react";
+
+import logo from "../../assets/que-peca.png";
+import phone from "../../assets/phone.png";
 
 export default function Hero() {
+
+  useEffect(() => {
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, []);
+
+  const handleNavigation = () => {
+    document.body.style.overflow = "auto";
+  };
+
   return (
-    <section className="relative min-h-screen overflow-hidden bg-[#f8fbff] flex items-center justify-center px-6">
+    <section
+      id="home"
+      className="relative h-screen overflow-hidden bg-[#f8fbff] flex items-center justify-center px-6"
+    >
 
       <div className="absolute top-[-250px] left-[-180px] w-[900px] h-[900px] bg-[#dff7fa] rounded-[38%] blur-[140px] opacity-90 rotate-12"></div>
 
@@ -38,13 +56,21 @@ export default function Hero() {
 
             <div className="flex items-center gap-5">
 
-              <button className="min-w-[170px] h-[52px] px-10 rounded-[18px] bg-gradient-to-r from-[#5de0e6] to-[#004aad] text-white text-[15px] leading-none font-semibold shadow-[0_12px_30px_rgba(0,74,173,0.22)] hover:scale-105 transition-all duration-300">
+              <a
+                href="#sobre"
+                onClick={handleNavigation}
+                className="min-w-[170px] h-[52px] px-10 rounded-[18px] bg-gradient-to-r from-[#5de0e6] to-[#004aad] text-white text-[15px] leading-none font-semibold shadow-[0_12px_30px_rgba(0,74,173,0.22)] hover:scale-105 transition-all duration-300 flex items-center justify-center"
+              >
                 Explorar Projeto
-              </button>
+              </a>
 
-              <button className="min-w-[160px] h-[52px] px-10 rounded-[18px] border border-[#004aad] text-[#004aad] text-[15px] font-semibold bg-white/60 backdrop-blur-md hover:bg-[#004aad] hover:text-white transition-all duration-300">
+              <a
+                href="#escopo"
+                onClick={handleNavigation}
+                className="min-w-[160px] h-[52px] px-10 rounded-[18px] border border-[#004aad] text-[#004aad] text-[15px] font-semibold bg-white/60 backdrop-blur-md hover:bg-[#004aad] hover:text-white transition-all duration-300 flex items-center justify-center"
+              >
                 Ver Escopo
-              </button>
+              </a>
 
             </div>
 
