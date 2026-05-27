@@ -140,15 +140,20 @@ export default function Solution() {
 
               </div>
 
-                <p className="text-[#4f5665] text-[18px] leading-[2.4] text-justify mt-10">
+            <div className="mb-[42px]">
 
-                <br />
+                <p className="text-[#4f5665] text-[18px] leading-[2.4] text-justify">
 
-                A plataforma reduz o tempo de busca, melhora a comunicação entre usuários e fornecedores e moderniza a experiência de localização de peças automotivas usadas através da tecnologia.
-                
+                    <br />
+
+                    A plataforma reduz o tempo de busca, melhora a comunicação entre usuários e fornecedores e moderniza a experiência de localização de peças automotivas usadas através da tecnologia.
+
                 </p>
 
-              <div className="flex justify-center mt-[24px]">
+            </div>
+
+
+              <div className="flex justify-center relative top-[15px]">
 
                 <a
                   href="https://www.figma.com/make/02naTsrqbJRZpfFSDBlH4L/Automotive-Marketplace-App-Prototype?fullscreen=1&t=UMoWajHnnSodWRfr-1&code-node-id=0-9"
@@ -156,7 +161,7 @@ export default function Solution() {
                   rel="noopener noreferrer"
                   className="
                     w-[320px]
-                    py-5
+                    h-[30px]
                     flex
                     items-center
                     justify-center
@@ -181,13 +186,9 @@ export default function Solution() {
 
               </div>
 
-
-
             </div>
 
           </div>
-
-          <div></div>
 
         </div>
 

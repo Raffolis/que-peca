@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 import logo from "../../assets/que-peca.png";
 import phone from "../../assets/phone.png";
@@ -64,13 +65,13 @@ export default function Hero() {
                 Explorar Projeto
               </a>
 
-              <a
-                href="#escopo"
+              <Link
+                to="/escopo"
                 onClick={handleNavigation}
                 className="min-w-[160px] h-[52px] px-10 rounded-[18px] border border-[#004aad] text-[#004aad] text-[15px] font-semibold bg-white/60 backdrop-blur-md hover:bg-[#004aad] hover:text-white transition-all duration-300 flex items-center justify-center"
               >
                 Ver Escopo
-              </a>
+              </Link>
 
             </div>
 

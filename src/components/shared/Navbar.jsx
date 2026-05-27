@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../assets/que-peca.png";
 
 export default function Navbar() {
@@ -8,15 +9,21 @@ export default function Navbar() {
 
         <div className="grid grid-cols-[40px_auto_1fr_auto_40px] items-center py-5">
 
-          <div></div>
+          <div />
 
-          <a href="#home" className="shrink-0">
+          <Link
+            to="/"
+            onClick={() => window.scrollTo(0, 0)}
+            className="shrink-0"
+          >
+
             <img
               src={logo}
               alt="QuePeça"
               className="w-[160px]"
             />
-          </a>
+
+          </Link>
 
           <nav className="hidden lg:flex items-center justify-center gap-8">
 
@@ -58,24 +65,31 @@ export default function Navbar() {
             <div className="flex items-center gap-4">
 
               <span className="text-[11px] uppercase tracking-[0.25em] text-[#7f8aa3] font-semibold">
-                Escopo
+                Desenvolvimento
               </span>
 
               <div className="flex items-center gap-4">
 
-                <a
-                  href="#objetivos"
+                <Link
+                  to="/escopo"
+                  className="text-[#004aad] font-medium hover:text-[#5de0e6] transition-all duration-300"
+                >
+                  Escopo
+                </Link>
+
+                <Link
+                  to="/objetivos"
                   className="text-[#004aad] font-medium hover:text-[#5de0e6] transition-all duration-300"
                 >
                   Objetivos
-                </a>
+                </Link>
 
-                <a
-                  href="#tecnologias"
+                <Link
+                  to="/tecnologias"
                   className="text-[#004aad] font-medium hover:text-[#5de0e6] transition-all duration-300"
                 >
                   Tecnologias
-                </a>
+                </Link>
 
               </div>
 
@@ -84,13 +98,13 @@ export default function Navbar() {
           </nav>
 
           <a
-            href="#equipe"
+            href="#footer"
             className="hidden lg:flex items-center justify-center h-[44px] px-6 rounded-[16px] bg-gradient-to-r from-[#5de0e6] to-[#004aad] text-white text-[14px] font-semibold shadow-[0_12px_30px_rgba(0,74,173,0.18)] hover:scale-105 transition-all duration-300 shrink-0"
           >
             Equipe
           </a>
 
-          <div></div>
+          <div />
 
         </div>
 
