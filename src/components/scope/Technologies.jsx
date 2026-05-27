@@ -1,7 +1,8 @@
 export default function Technologies() {
   return (
     <section
-      className="
+        id="tecnologias"
+        className="
         min-h-screen
         flex
         items-center

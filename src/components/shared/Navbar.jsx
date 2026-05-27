@@ -35,26 +35,26 @@ export default function Navbar() {
 
               <div className="flex items-center gap-4">
 
-                <a
-                  href="#sobre"
+                <Link
+                  to="/#sobre"
                   className="text-[#004aad] font-medium hover:text-[#5de0e6] transition-all duration-300"
                 >
                   Sobre
-                </a>
+                </Link>
 
-                <a
-                  href="#problema"
+                <Link
+                  to="/#problema"
                   className="text-[#004aad] font-medium hover:text-[#5de0e6] transition-all duration-300"
                 >
                   Problema
-                </a>
+                </Link>
 
-                <a
-                  href="#solucao"
+                <Link
+                  to="/#solucao"
                   className="text-[#004aad] font-medium hover:text-[#5de0e6] transition-all duration-300"
                 >
                   Solução
-                </a>
+                </Link>
 
               </div>
 
@@ -78,14 +78,14 @@ export default function Navbar() {
                 </Link>
 
                 <Link
-                  to="/objetivos"
+                  to="/escopo#objetivos"
                   className="text-[#004aad] font-medium hover:text-[#5de0e6] transition-all duration-300"
                 >
                   Objetivos
                 </Link>
 
                 <Link
-                  to="/tecnologias"
+                  to="/escopo#tecnologias"
                   className="text-[#004aad] font-medium hover:text-[#5de0e6] transition-all duration-300"
                 >
                   Tecnologias

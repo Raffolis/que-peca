@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import ScrollToHash from "./components/shared/ScrollToHash";
 
 import Navbar from "./components/shared/Navbar";
 import Footer from "./components/shared/Footer";
@@ -27,11 +28,26 @@ function Home() {
   );
 }
 
+function Scope() {
+  return (
+    <>
+      <ScopeHero />
+
+      <Objectives />
+
+      <Technologies />
+    </>
+  );
+}
+
 export default function App() {
   return (
     <div className="overflow-x-hidden bg-[#f8fbff]">
 
+        <ScrollToHash />
+
       <div className="fixed top-0 left-0 w-full z-[999]">
+
         <Navbar />
       </div>
 
@@ -46,17 +62,7 @@ export default function App() {
 
           <Route
             path="/escopo"
-            element={<ScopeHero />}
-          />
-
-          <Route
-            path="/objetivos"
-            element={<Objectives />}
-          />
-
-          <Route
-            path="/tecnologias"
-            element={<Technologies />}
+            element={<Scope />}
           />
 
         </Routes>
