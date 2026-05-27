@@ -72,6 +72,9 @@ export default function About() {
                 entre consumidores e fornecedores através de uma interface
                 intuitiva, acessível e eficiente.
 
+                <br />
+                <br />
+
               </p>
 
             </div>
@@ -86,10 +89,14 @@ export default function About() {
 
           <div></div>
 
-          <div className="grid grid-cols-3 gap-8 max-w-[1080px] mx-auto">
+          <div className="grid grid-cols-3 gap-8 max-w-[1080px] mx-auto mt-8 items-stretch">
 
             <div className="
               h-full
+              flex
+              flex-col
+              justify-center
+              items-center
               px-12
               py-10
               rounded-[18px]
@@ -97,13 +104,14 @@ export default function About() {
               border
               border-[#dbe8f5]
               shadow-[0_12px_35px_rgba(0,74,173,0.05)]
+              text-center
             ">
 
               <h3 className="text-[19px] leading-[1.3] font-bold text-[#004aad]">
                 Busca Inteligente
               </h3>
 
-              <p className="text-[#5f6470] text-[15px] leading-[2.1] mt-6 pr-2">
+              <p className="text-[#5f6470] text-[15px] leading-[2.1] mt-6">
 
                 Localização rápida de peças automotivas usadas através de filtros e categorias.
 
@@ -112,22 +120,27 @@ export default function About() {
             </div>
 
             <div className="
-              h-full
+              min-h-[110px]
+              flex
+              flex-col
+              justify-center
+              items-center
               px-12
-              py-10
+              py-12
               rounded-[18px]
               bg-gradient-to-r
               from-[#5de0e6]
               to-[#004aad]
               text-white
               shadow-[0_16px_45px_rgba(0,74,173,0.16)]
+              text-center
             ">
 
               <h3 className="text-[19px] leading-[1.3] font-bold">
                 Comunicação Centralizada
               </h3>
 
-              <p className="text-[15px] leading-[2.1] mt-6 opacity-95 pr-2">
+              <p className="text-[15px] leading-[2.1] mt-6 opacity-95">
 
                 Consumidores e desmanches conectados em uma única plataforma.
 
@@ -137,6 +150,10 @@ export default function About() {
 
             <div className="
               h-full
+              flex
+              flex-col
+              justify-center
+              items-center
               px-12
               py-10
               rounded-[18px]
@@ -144,13 +161,14 @@ export default function About() {
               border
               border-[#dbe8f5]
               shadow-[0_12px_35px_rgba(0,74,173,0.05)]
+              text-center
             ">
 
               <h3 className="text-[19px] leading-[1.3] font-bold text-[#004aad]">
                 Experiência Simplificada
               </h3>
 
-              <p className="text-[#5f6470] text-[15px] leading-[2.1] mt-6 pr-2">
+              <p className="text-[#5f6470] text-[15px] leading-[2.1] mt-6">
 
                 Interface moderna e intuitiva desenvolvida com foco em usabilidade.
 

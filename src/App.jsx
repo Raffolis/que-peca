@@ -1,6 +1,8 @@
 import Navbar from "./components/shared/Navbar";
 import Hero from "./components/shared/Hero";
 import About from "./components/project/About";
+import Problem from "./components/project/Problem";
+import Solution from "./components/project/Solution";
 
 export default function App() {
   return (
@@ -15,6 +17,10 @@ export default function App() {
         <Hero />
 
         <About />
+
+        <Problem />
+
+        <Solution />
 
       </main>
 
