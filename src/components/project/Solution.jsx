@@ -3,6 +3,7 @@ export default function Solution() {
     <section
       id="solucao"
       className="
+        scroll-mt-30
         relative
         min-h-screen
         flex

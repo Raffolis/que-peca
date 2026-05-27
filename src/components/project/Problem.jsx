@@ -3,6 +3,7 @@ export default function Problem() {
     <section
       id="problema"
       className="
+        scroll-mt-25
         relative
         min-h-screen
         flex

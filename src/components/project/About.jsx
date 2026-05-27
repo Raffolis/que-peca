@@ -5,6 +5,7 @@ export default function About() {
     <section
       id="sobre"
       className="
+        scroll-mt-25
         relative
         min-h-screen
         flex
