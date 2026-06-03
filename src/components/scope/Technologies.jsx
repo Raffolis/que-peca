@@ -302,6 +302,21 @@ export default function Technologies() {
                     "
                   />
 
+                  <div className="mt-6">
+
+                    <p className="text-sm font-semibold">
+                      Relacionamentos
+                    </p>
+
+                    <ul className="mt-3 space-y-2 text-sm opacity-90">
+                      <li>Usuário ↔ Pesquisa de Peças</li>
+                      <li>Desmanche ↔ Cadastro de Peças</li>
+                      <li>Peça ↔ Anúncio</li>
+                      <li>Administrador ↔ Gerenciamento</li>
+                    </ul>
+
+                  </div>
+
                 </div>
 
               </div>
@@ -356,6 +371,49 @@ export default function Technologies() {
                 prioridades e Story Points para gerenciamento ágil do projeto.
               </p>
 
+              <div
+                className="
+    mt-10
+    grid
+    md:grid-cols-3
+    gap-5
+  "
+              >
+
+                <div className="rounded-[20px] border border-[#dbe8f5] p-5 bg-[#f8fbff]">
+                  <h4 className="font-semibold text-[#004aad]">
+                    Product Owner
+                  </h4>
+
+                  <p className="mt-2 text-sm text-[#5f6470]">
+                    Representa os interesses dos desmanches e define prioridades.
+                  </p>
+                </div>
+
+                <div className="rounded-[20px] border border-[#dbe8f5] p-5 bg-[#f8fbff]">
+                  <h4 className="font-semibold text-[#004aad]">
+                    Scrum Master
+                  </h4>
+
+                  <p className="mt-2 text-sm text-[#5f6470]">
+                    Responsável por garantir a aplicação do Scrum.
+                  </p>
+                </div>
+
+                <div className="rounded-[20px] border border-[#dbe8f5] p-5 bg-[#f8fbff]">
+                  <h4 className="font-semibold text-[#004aad]">
+                    Development Team
+                  </h4>
+
+                  <p className="mt-2 text-sm text-[#5f6470]">
+                    Responsável pelo desenvolvimento da plataforma.
+                  </p>
+                </div>
+
+              </div>
+
+
+
               <div className="mt-8 overflow-hidden rounded-[22px] border border-[#dbe8f5]">
 
                 <table className="w-full">
@@ -385,7 +443,7 @@ export default function Technologies() {
                     <tr className="border-t border-[#edf2f7]">
 
                       <td className="px-6 py-5 text-sm text-[#5f6470]">
-                        PB01
+                        HU-01
                       </td>
 
                       <td className="px-6 py-5 text-sm text-[#5f6470]">
@@ -401,7 +459,7 @@ export default function Technologies() {
                     <tr className="border-t border-[#edf2f7]">
 
                       <td className="px-6 py-5 text-sm text-[#5f6470]">
-                        PB04
+                        HU-02
                       </td>
 
                       <td className="px-6 py-5 text-sm text-[#5f6470]">
@@ -417,7 +475,7 @@ export default function Technologies() {
                     <tr className="border-t border-[#edf2f7]">
 
                       <td className="px-6 py-5 text-sm text-[#5f6470]">
-                        PB05
+                        HU-03
                       </td>
 
                       <td className="px-6 py-5 text-sm text-[#5f6470]">
@@ -433,7 +491,7 @@ export default function Technologies() {
                     <tr className="border-t border-[#edf2f7]">
 
                       <td className="px-6 py-5 text-sm text-[#5f6470]">
-                        PB08
+                        HU-04
                       </td>
 
                       <td className="px-6 py-5 text-sm text-[#5f6470]">
@@ -449,6 +507,167 @@ export default function Technologies() {
                   </tbody>
 
                 </table>
+
+              </div>
+
+              <div className="mt-12">
+
+                <h4
+                  className="
+                  text-[22px]
+                  font-bold
+                  text-[#004aad]
+                "
+                >
+                  Sprint Backlog
+                </h4>
+
+                <div
+                  className="
+                  mt-6
+                  grid
+                  md:grid-cols-3
+                  gap-5
+                "
+                >
+
+                  <div className="rounded-[20px] border border-[#dbe8f5] p-5">
+                    <h5 className="font-semibold text-[#004aad]">
+                      Sprint 1
+                    </h5>
+
+                    <ul className="mt-3 text-sm text-[#5f6470] space-y-2">
+                      <li>Cadastro</li>
+                      <li>Login</li>
+                      <li>Cadastro de peças</li>
+                    </ul>
+                  </div>
+
+                  <div className="rounded-[20px] border border-[#dbe8f5] p-5">
+                    <h5 className="font-semibold text-[#004aad]">
+                      Sprint 2
+                    </h5>
+
+                    <ul className="mt-3 text-sm text-[#5f6470] space-y-2">
+                      <li>Pesquisa de peças</li>
+                      <li>Filtros</li>
+                      <li>Anúncios</li>
+                    </ul>
+                  </div>
+
+                  <div className="rounded-[20px] border border-[#dbe8f5] p-5">
+                    <h5 className="font-semibold text-[#004aad]">
+                      Sprint 3
+                    </h5>
+
+                    <ul className="mt-3 text-sm text-[#5f6470] space-y-2">
+                      <li>Dashboard</li>
+                      <li>Relatórios</li>
+                      <li>Administração</li>
+                    </ul>
+                  </div>
+
+                </div>
+
+                <div className="mt-14">
+
+  <span
+    className="
+      uppercase
+      tracking-[0.22em]
+      text-[#7f8aa3]
+      text-[11px]
+      font-semibold
+    "
+  >
+    Práticas Complementares
+  </span>
+
+  <div
+    className="
+      mt-6
+      grid
+      md:grid-cols-2
+      gap-6
+    "
+  >
+
+    <div
+      className="
+        rounded-[24px]
+        border
+        border-[#dbe8f5]
+        bg-[#f8fbff]
+        p-6
+      "
+    >
+
+      <h4
+        className="
+          text-[22px]
+          font-bold
+          text-[#004aad]
+        "
+      >
+        XP
+      </h4>
+
+      <ul
+        className="
+          mt-4
+          space-y-3
+          text-[#5f6470]
+          text-sm
+        "
+      >
+        <li>Pair Programming</li>
+        <li>TDD</li>
+        <li>KISS</li>
+        <li>Integração Contínua</li>
+      </ul>
+
+    </div>
+
+    <div
+      className="
+        rounded-[24px]
+        border
+        border-[#dbe8f5]
+        bg-[#f8fbff]
+        p-6
+      "
+    >
+
+      <h4
+        className="
+          text-[22px]
+          font-bold
+          text-[#004aad]
+        "
+      >
+        DevOps
+      </h4>
+
+      <ul
+        className="
+          mt-4
+          space-y-3
+          text-[#5f6470]
+          text-sm
+        "
+      >
+        <li>Git</li>
+        <li>GitHub</li>
+        <li>GitHub Actions</li>
+        <li>Vercel</li>
+        <li>PostgreSQL</li>
+      </ul>
+
+    </div>
+
+  </div>
+
+</div>
 
               </div>
 

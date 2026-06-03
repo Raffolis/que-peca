@@ -1,7 +1,56 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
 import logo from "../../assets/que-peca.png";
 
 export default function Navbar() {
+  const location = useLocation();
+const [activeSection, setActiveSection] = useState("");
+
+useEffect(() => {
+  if (
+  location.pathname !== "/desenvolvimento" &&
+  location.pathname !== "/projeto"
+) {
+  return;
+}
+
+  setActiveSection(window.location.hash.replace("#", ""));
+
+  const sections = document.querySelectorAll("section[id]");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+  window.history.replaceState(
+    null,
+    "",
+    `${location.pathname}#${entry.target.id}`
+  );
+
+  if (activeSection !== entry.target.id) {
+  setActiveSection(entry.target.id);
+}
+}
+      });
+    },
+    {
+      threshold: 0.5,
+      rootMargin: "-180px 0px -65% 0px",
+    }
+  );
+
+  sections.forEach((section) => observer.observe(section));
+
+  return () => observer.disconnect();
+}, [location.pathname, location.hash]);
+
+const navClass = (section) =>
+  `relative font-medium transition-all duration-300 ${
+    activeSection === section
+      ? "text-[#004aad]"
+      : "text-[#004aad] hover:text-[#5de0e6]"
+  }`;
   return (
     <header className="relative z-50 w-full flex justify-center pt-4">
 
@@ -37,23 +86,65 @@ export default function Navbar() {
 
                 <Link
                   to="/projeto#sobre"
-                  className="text-[#004aad] font-medium hover:text-[#5de0e6] transition-all duration-300"
+                  className={navClass("sobre")}
                 >
                   Sobre
+
+                  {activeSection === "sobre" && (
+                    <span
+                      className="
+                        absolute
+                        left-0
+                        -bottom-2
+                        h-[3px]
+                        w-full
+                        rounded-full
+                        bg-[#5de0e6]
+                      "
+                    />
+                  )}
                 </Link>
 
                 <Link
                   to="/projeto#problema"
-                  className="text-[#004aad] font-medium hover:text-[#5de0e6] transition-all duration-300"
+                  className={navClass("problema")}
                 >
                   Problema
+
+                  {activeSection === "problema" && (
+                    <span
+                      className="
+                        absolute
+                        left-0
+                        -bottom-2
+                        h-[3px]
+                        w-full
+                        rounded-full
+                        bg-[#5de0e6]
+                      "
+                    />
+                  )}
                 </Link>
 
-                <Link
+               <Link
                   to="/projeto#solucao"
-                  className="text-[#004aad] font-medium hover:text-[#5de0e6] transition-all duration-300"
+                  className={navClass("solucao")}
                 >
                   Solução
+
+                  {activeSection === "solucao" && (
+                    <span
+                      className="
+                        absolute
+                        left-0
+                        -bottom-2
+                        h-[3px]
+                        w-full
+                        rounded-full
+                        bg-[#5de0e6]
+                      "
+                    />
+                  )}
                 </Link>
 
               </div>
@@ -72,23 +163,65 @@ export default function Navbar() {
 
                 <Link
                   to="/desenvolvimento#escopo"
-                  className="text-[#004aad] font-medium hover:text-[#5de0e6] transition-all duration-300"
+                  className={navClass("escopo")}
                 >
                   Escopo
+
+                  {activeSection === "escopo" && (
+                    <span
+                      className="
+                        absolute
+                        left-0
+                        -bottom-2
+                        h-[3px]
+                        w-full
+                        rounded-full
+                        bg-[#5de0e6]
+                      "
+                    />
+                  )}
                 </Link>
 
                 <Link
                   to="/desenvolvimento#objetivos"
-                  className="text-[#004aad] font-medium hover:text-[#5de0e6] transition-all duration-300"
+                  className={navClass("objetivos")}
                 >
                   Objetivos
+
+                  {activeSection === "objetivos" && (
+                    <span
+                      className="
+                        absolute
+                        left-0
+                        -bottom-2
+                        h-[3px]
+                        w-full
+                        rounded-full
+                        bg-[#5de0e6]
+                      "
+                    />
+                  )}
                 </Link>
 
                 <Link
                   to="/desenvolvimento#tecnologias"
-                  className="text-[#004aad] font-medium hover:text-[#5de0e6] transition-all duration-300"
+                  className={navClass("tecnologias")}
                 >
                   Tecnologias
+
+                  {activeSection === "tecnologias" && (
+                    <span
+                      className="
+                        absolute
+                        left-0
+                        -bottom-2
+                        h-[3px]
+                        w-full
+                        rounded-full
+                        bg-[#5de0e6]
+                      "
+                    />
+                  )}
                 </Link>
 
               </div>

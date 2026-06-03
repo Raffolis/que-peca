@@ -125,23 +125,23 @@ export default function ScopeHero() {
 
             <div className="grid md:grid-cols-2 gap-4 mt-8 max-w-[700px]">
 
-            <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-5">
-              Proprietários de veículos
-            </div>
+              <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-5">
+                Proprietários de veículos
+              </div>
 
-            <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-5">
-              Desmanches parceiros
-            </div>
+              <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-5">
+                Desmanches parceiros
+              </div>
 
-            <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-5">
-              Administrador da plataforma
-            </div>
+              <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-5">
+                Administrador da plataforma
+              </div>
 
-            <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-5">
-              Equipe de desenvolvimento
-            </div>
+              <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-5">
+                Equipe de desenvolvimento
+              </div>
 
-        </div>
+            </div>
 
             <div
               className="
@@ -334,10 +334,10 @@ export default function ScopeHero() {
 
                 </div>
 
-<div className="pt-4">
+                <div className="pt-4">
 
-  <p
-    className="
+                  <p
+                    className="
       uppercase
       tracking-[0.25em]
       text-[#7f8aa3]
@@ -345,14 +345,14 @@ export default function ScopeHero() {
       font-semibold
       mb-4
     "
-  >
-    MVP
-  </p>
+                  >
+                    MVP
+                  </p>
 
-  <div className="grid grid-cols-2 gap-3">
+                  <div className="grid grid-cols-2 gap-3">
 
-    <div
-      className="
+                    <div
+                      className="
         rounded-[14px]
         border
         border-[#dbe8f5]
@@ -362,12 +362,12 @@ export default function ScopeHero() {
         text-[#004aad]
         font-medium
       "
-    >
-      Cadastro e Login
-    </div>
+                    >
+                      Cadastro e Login
+                    </div>
 
-    <div
-      className="
+                    <div
+                      className="
         rounded-[14px]
         border
         border-[#dbe8f5]
@@ -377,12 +377,12 @@ export default function ScopeHero() {
         text-[#004aad]
         font-medium
       "
-    >
-      Cadastro de Desmanches e peças
-    </div>
+                    >
+                      Cadastro de Desmanches e peças
+                    </div>
 
-    <div
-      className="
+                    <div
+                      className="
         rounded-[14px]
         border
         border-[#dbe8f5]
@@ -392,12 +392,12 @@ export default function ScopeHero() {
         text-[#004aad]
         font-medium
       "
-    >
-     Pesquisa de Peças
-    </div>
+                    >
+                      Pesquisa de Peças
+                    </div>
 
-    <div
-      className="
+                    <div
+                      className="
         rounded-[14px]
         border
         border-[#dbe8f5]
@@ -407,13 +407,13 @@ export default function ScopeHero() {
         text-[#004aad]
         font-medium
       "
-    >
-      Anúncio de Peças
-    </div>
+                    >
+                      Anúncio de Peças
+                    </div>
 
-  </div>
+                  </div>
 
-</div>                
+                </div>
 
               </div>
 
@@ -425,95 +425,61 @@ export default function ScopeHero() {
 
         </div>
 
-    <div
-      className="
+        <div
+          className="
         mt-20
         grid
         grid-cols-[0.25fr_1.2fr_0.8fr_0.25fr]
         gap-16
       "
-    >
+        >
 
-      <div />
+          <div />
 
-      <div className="col-span-2">
+          <div className="col-span-2">
 
-          <span
-            className="
+            <span
+              className="
               uppercase
               tracking-[0.25em]
               text-[#7f8aa3]
               text-xs
               font-semibold
             "
-          >
-            Requisitos Funcionais
-          </span>
+            >
+              Requisitos Funcionais
+            </span>
 
-          <div className="grid md:grid-cols-2 gap-6 mt-8">
+            <div className="grid md:grid-cols-2 gap-6 mt-8">
 
-            <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-6">
-              RF01 - Cadastro de usuários
+              <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-6">
+                RF01 - Cadastro de usuários
+              </div>
+
+              <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-6">
+                RF02 - Cadastro de peças
+              </div>
+
+              <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-6">
+                RF03 - Pesquisa de peças
+              </div>
+
+              <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-6">
+                RF04 - Controle de anúncios
+              </div>
+
+              <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-6">
+                RF05 - Cadastro de desmanches
+              </div>
+
+              <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-6">
+                RF06 - Dashboard administrativo
+              </div>
+
             </div>
 
-            <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-6">
-              RF02 - Cadastro de peças
-            </div>
-
-            <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-6">
-              RF03 - Pesquisa de peças
-            </div>
-
-            <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-6">
-              RF04 - Controle de anúncios
-            </div>
-
-            <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-6">
-              RF05 - Cadastro de desmanches
-            </div>
-
-            <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-6">
-              RF06 - Dashboard administrativo
-            </div>
-
-          </div>
-
-          <span
-            className="
-              uppercase
-              tracking-[0.25em]
-              text-[#7f8aa3]
-              text-xs
-              font-semibold
-              block
-              mt-20
-            "
-          >
-            Requisitos Não Funcionais
-          </span>
-
-          <div className="grid md:grid-cols-2 gap-6 mt-8">
-
-            <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-6">
-              RNF01 - Sistema responsivo
-            </div>
-
-            <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-6">
-              RNF02 - Interface intuitiva
-            </div>
-
-            <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-6">
-              RNF03 - Segurança dos dados
-            </div>
-
-            <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-6">
-              RNF04 - Disponibilidade contínua
-            </div>
-
-          </div>
-
-          <span
-            className="
+            <span
+              className="
               uppercase
               tracking-[0.25em]
               text-[#7f8aa3]
@@ -522,63 +488,97 @@ export default function ScopeHero() {
               block
               mt-20
             "
-          >
-            Casos de Uso
-          </span>
+            >
+              Requisitos Não Funcionais
+            </span>
 
-          <div className="mt-8 overflow-hidden rounded-[24px] border border-[#dbe8f5] bg-white">
+            <div className="grid md:grid-cols-2 gap-6 mt-8">
 
-            <table className="w-full">
+              <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-6">
+                RNF01 - Sistema responsivo
+              </div>
 
-              <thead className="bg-[#f4f9ff]">
+              <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-6">
+                RNF02 - Interface intuitiva
+              </div>
 
-                <tr>
+              <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-6">
+                RNF03 - Segurança dos dados
+              </div>
 
-                  <th className="px-6 py-4 text-left text-[#004aad]">
-                    Ator
-                  </th>
+              <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-6">
+                RNF04 - Disponibilidade contínua
+              </div>
 
-                  <th className="px-6 py-4 text-left text-[#004aad]">
-                    Ação
-                  </th>
+            </div>
 
-                </tr>
+            <span
+              className="
+              uppercase
+              tracking-[0.25em]
+              text-[#7f8aa3]
+              text-xs
+              font-semibold
+              block
+              mt-20
+            "
+            >
+              Casos de Uso
+            </span>
 
-              </thead>
+            <div className="mt-8 overflow-hidden rounded-[24px] border border-[#dbe8f5] bg-white">
 
-              <tbody>
+              <table className="w-full">
 
-                <tr className="border-t border-[#edf2f7]">
-                  <td className="px-6 py-5">Usuário</td>
-                  <td className="px-6 py-5">Pesquisar peças</td>
-                </tr>
+                <thead className="bg-[#f4f9ff]">
 
-                <tr className="border-t border-[#edf2f7]">
-                  <td className="px-6 py-5">Usuário</td>
-                  <td className="px-6 py-5">Solicitar orçamento</td>
-                </tr>
+                  <tr>
 
-                <tr className="border-t border-[#edf2f7]">
-                  <td className="px-6 py-5">Desmanche</td>
-                  <td className="px-6 py-5">Cadastrar peças</td>
-                </tr>
+                    <th className="px-6 py-4 text-left text-[#004aad]">
+                      Ator
+                    </th>
 
-                <tr className="border-t border-[#edf2f7]">
-                  <td className="px-6 py-5">Desmanche</td>
-                  <td className="px-6 py-5">Gerenciar anúncios</td>
-                </tr>
+                    <th className="px-6 py-4 text-left text-[#004aad]">
+                      Ação
+                    </th>
 
-              </tbody>
+                  </tr>
 
-           </table>
+                </thead>
+
+                <tbody>
+
+                  <tr className="border-t border-[#edf2f7]">
+                    <td className="px-6 py-5">Usuário</td>
+                    <td className="px-6 py-5">Pesquisar peças</td>
+                  </tr>
+
+                  <tr className="border-t border-[#edf2f7]">
+                    <td className="px-6 py-5">Usuário</td>
+                    <td className="px-6 py-5">Solicitar orçamento</td>
+                  </tr>
+
+                  <tr className="border-t border-[#edf2f7]">
+                    <td className="px-6 py-5">Desmanche</td>
+                    <td className="px-6 py-5">Cadastrar peças</td>
+                  </tr>
+
+                  <tr className="border-t border-[#edf2f7]">
+                    <td className="px-6 py-5">Desmanche</td>
+                    <td className="px-6 py-5">Gerenciar anúncios</td>
+                  </tr>
+
+                </tbody>
+
+              </table>
+
+            </div>
 
           </div>
+
+          <div />
 
         </div>
-
-        <div />
-
-      </div>
 
       </div>
 

@@ -127,6 +127,7 @@ export default function Footer() {
             <div
               className="
                 py-12
+                pr-60
               "
             >
 
@@ -134,10 +135,18 @@ export default function Footer() {
                 Navegação
               </h3>
 
-              <div className="flex flex-col gap-6 mt-8">
+              <div
+                className="
+                  mt-8
+                  grid
+                  grid-cols-2
+                  gap-x-8
+                  gap-y-6
+                "
+              >
 
                 <a
-                  href="#inicio"
+                  href="/"
                   className="
                     flex
                     items-center
@@ -155,7 +164,7 @@ export default function Footer() {
                 </a>
 
                 <a
-                  href="#sobre"
+                  href="/projeto#sobre"
                   className="
                     flex
                     items-center
@@ -173,7 +182,7 @@ export default function Footer() {
                 </a>
 
                 <a
-                  href="#problema"
+                  href="/projeto#problema"
                   className="
                     flex
                     items-center
@@ -191,7 +200,7 @@ export default function Footer() {
                 </a>
 
                 <a
-                  href="#solucao"
+                  href="/projeto#solucao"
                   className="
                     flex
                     items-center
@@ -207,6 +216,60 @@ export default function Footer() {
                   <Lightbulb size={18} strokeWidth={2} />
                   Solução
                 </a>
+
+                <a
+  href="/desenvolvimento#escopo"
+  className="
+    flex
+    items-center
+    gap-3
+    text-white/75
+    text-[16px]
+    hover:text-[#5de0e6]
+    transition-all
+    duration-300
+    w-fit
+  "
+>
+  <LayoutDashboard size={18} strokeWidth={2} />
+  Escopo
+</a>
+
+<a
+  href="/desenvolvimento#objetivos"
+  className="
+    flex
+    items-center
+    gap-3
+    text-white/75
+    text-[16px]
+    hover:text-[#5de0e6]
+    transition-all
+    duration-300
+    w-fit
+  "
+>
+  <CircleHelp size={18} strokeWidth={2} />
+  Objetivos
+</a>
+
+<a
+  href="/desenvolvimento#tecnologias"
+  className="
+    flex
+    items-center
+    gap-3
+    text-white/75
+    text-[16px]
+    hover:text-[#5de0e6]
+    transition-all
+    duration-300
+    w-fit
+  "
+>
+  <Lightbulb size={18} strokeWidth={2} />
+  Tecnologias
+</a>
 
                 <a
                   href="https://www.figma.com/make/02naTsrqbJRZpfFSDBlH4L/Automotive-Marketplace-App-Prototype?fullscreen=1&t=UMoWajHnnSodWRfr-1&code-node-id=0-9"
