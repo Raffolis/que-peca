@@ -3,14 +3,14 @@ export default function Solution() {
     <section
       id="solucao"
       className="
-        scroll-mt-30
+        scroll-mt-25
         relative
         min-h-screen
         flex
         items-center
         overflow-hidden
         bg-[#f8fbff]
-        pt-40
+        pt-20
         pb-32
       "
     >
@@ -39,17 +39,15 @@ export default function Solution() {
               Uma plataforma centralizada para transformar a busca por peças automotivas usadas.
             </h2>
 
-            <div className="mt-24 max-w-[1120px]">
+            <div className="mt-10 max-w-[1120px]">
 
               <p className="text-[#4f5665] text-[18px] leading-[2.4] text-justify">
 
                 O QuePeça surge como uma solução digital desenvolvida para conectar consumidores e desmanches em uma única plataforma moderna, intuitiva e acessível. A proposta é simplificar todo o processo de busca por peças automotivas usadas através de uma experiência centralizada e eficiente.
-                <br />
-                <br />
 
               </p>
 
-              <div className="grid grid-cols-3 gap-12 max-w-[1380px] my-28">
+              <div className="grid grid-cols-3 gap-12 max-w-[1380px] my-10">
 
                 <div className="
                   min-h-[150px]
@@ -145,8 +143,6 @@ export default function Solution() {
 
                 <p className="text-[#4f5665] text-[18px] leading-[2.4] text-justify">
 
-                    <br />
-
                     A plataforma reduz o tempo de busca, melhora a comunicação entre usuários e fornecedores e moderniza a experiência de localização de peças automotivas usadas através da tecnologia.
 
                 </p>
@@ -154,7 +150,7 @@ export default function Solution() {
             </div>
 
 
-              <div className="flex justify-center relative top-[15px]">
+              <div className="flex justify-center relative top-[10px]">
 
                 <a
                   href="https://www.figma.com/make/02naTsrqbJRZpfFSDBlH4L/Automotive-Marketplace-App-Prototype?fullscreen=1&t=UMoWajHnnSodWRfr-1&code-node-id=0-9"

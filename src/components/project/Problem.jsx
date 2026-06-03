@@ -10,7 +10,7 @@ export default function Problem() {
         items-center
         overflow-hidden
         bg-white
-        pt-40
+        pt-25
         pb-32
       "
     >
@@ -23,11 +23,9 @@ export default function Problem() {
 
       </div>
 
-      <div className="relative z-10 w-full max-w-[1700px] mx-auto px-14 lg:px-20">
+      <div className="flex justify-center flex-col items-center z-10 w-full max-w-[1700px] mx-auto px-14 lg:px-20">
 
-        <div className="grid grid-cols-[1.4fr_1150px_0.6fr] gap-10 items-start">
-
-          <div></div>
+          <div>
 
           <div className="w-full">
 
@@ -39,18 +37,15 @@ export default function Problem() {
               A busca por peças automotivas usadas ainda é lenta, descentralizada e pouco eficiente.
             </h2>
 
-            <div className="mt-24 max-w-[1120px]">
+            <div className="mt-10 max-w-[1120px]">
 
               <p className="text-[#4f5665] text-[18px] leading-[2.4] text-justify">
 
                 Atualmente, consumidores enfrentam dificuldades para localizar peças automotivas usadas de maneira rápida e confiável. A maioria das buscas depende de contatos individuais, ligações telefônicas ou visitas presenciais em diversos desmanches.
                 
-                <br />
-                <br />
-
               </p>
 
-              <div className="my-24 grid grid-cols-3 gap-12 max-w-[1380px]">
+              <div className="my-10 grid grid-cols-3 gap-12 max-w-[1380px]">
 
                 <div className="
                     min-h-[120px]
@@ -129,9 +124,6 @@ export default function Problem() {
               </div>
 
               <p className="text-[#4f5665] text-[18px] leading-[2.4] text-justify">
-
-                <br />
-                <br />
 
                 Esse cenário gera baixa eficiência tanto para consumidores quanto para fornecedores, dificultando a modernização do setor e reduzindo a acessibilidade ao mercado de peças usadas.
 

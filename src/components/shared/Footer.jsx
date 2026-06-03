@@ -13,19 +13,11 @@ export default function Footer() {
       className="
         relative
         overflow-hidden
-        bg-[#001d47]
-        pt-16
+        bg-transparent
       "
     >
-      <div className="absolute inset-0 pointer-events-none">
 
-        <div className="absolute top-[-180px] left-[-180px] w-[420px] h-[420px] bg-[#5de0e6] rounded-full blur-[140px] opacity-[0.06]" />
-
-        <div className="absolute bottom-[-220px] right-[-220px] w-[520px] h-[520px] bg-[#5de0e6] rounded-full blur-[160px] opacity-[0.06]" />
-
-      </div>
-
-      <div className="relative z-10 w-full px-[40px]">
+      <div className="relative w-full">
 
         <div
           className="
@@ -37,8 +29,9 @@ export default function Footer() {
           "
         >
 
-          <div
+          <div data-component="footer-content"
             className="
+              w-full
               grid
               grid-cols-1
               lg:grid-cols-[0.25fr_1.1fr_.9fr_1fr_0.25fr]

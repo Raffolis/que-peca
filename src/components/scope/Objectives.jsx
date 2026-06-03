@@ -21,9 +21,9 @@ export default function Objectives() {
       </div>
 
       {/* CONTAINER */}
-      <div className="relative z-10 w-full max-w-[1450px] mx-auto px-14 lg:px-20">
+      <div className="flex justify-center flex-col items-centerz-10 w-full max-w-[1450px] mx-auto px-14 lg:px-20">
 
-        <div className="w-full max-w-[1280px] mx-auto px-6">
+        <div className="flex justify-center flex-col items-center w-full max-w-[1280px] mx-auto px-6">
 
           <div></div>
 
@@ -36,12 +36,12 @@ export default function Objectives() {
             </span>
 
             {/* TÍTULO */}
-            <h2 className="text-[35px] lg:text-[50px] leading-[1.5] font-bold text-[#004aad] mt-5 max-w-[780px]">
+            <h2 className="text-[35px] lg:text-[50px] leading-[1.5] font-bold text-[#004aad] mt-5 w-full">
               Objetivos estratégicos da plataforma QuePeça.
             </h2>
 
             {/* TEXTO */}
-            <div className="mt-14 max-w-[760px]">
+            <div className="mt-14 w-full">
 
               <p className="text-[#4f5665] text-[18px] leading-[2.4] text-justify">
 
@@ -65,7 +65,7 @@ export default function Objectives() {
                 px-10
                 py-8
                 shadow-[0_16px_45px_rgba(0,74,173,0.16)]
-                max-w-[980px]
+                w-full
               ">
 
                 <span className="
@@ -84,7 +84,7 @@ export default function Objectives() {
                   leading-[1.5]
                   font-bold
                   mt-6
-                  max-w-[760px]
+                  w-full
                 ">
 
                   Facilitar a localização de peças automotivas usadas
@@ -338,6 +338,56 @@ export default function Objectives() {
             </div>
 
           </div>
+
+          {/* OBJETIVOS ESPECÍFICOS */}
+
+<div className="mt-24 max-w-[1100px] mx-auto">
+
+  <span
+    className="
+      uppercase
+      tracking-[0.25em]
+      text-[#7f8aa3]
+      text-xs
+      font-semibold
+    "
+  >
+    Objetivos Específicos
+  </span>
+
+  <div
+    className="
+      grid
+      md:grid-cols-2
+      xl:grid-cols-5
+      gap-5
+      mt-8
+    "
+  >
+
+    <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-5 text-center">
+      Centralizar anúncios automotivos
+    </div>
+
+    <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-5 text-center">
+      Facilitar a localização de peças
+    </div>
+
+    <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-5 text-center">
+      Conectar consumidores e desmanches
+    </div>
+
+    <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-5 text-center">
+      Aumentar a visibilidade dos desmanches
+    </div>
+
+    <div className="bg-white border border-[#dbe8f5] rounded-[20px] p-5 text-center">
+      Viabilizar um modelo SaaS escalável
+    </div>
+
+  </div>
+
+</div>
 
         </div>
 

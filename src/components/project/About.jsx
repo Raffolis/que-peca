@@ -5,14 +5,14 @@ export default function About() {
     <section
       id="sobre"
       className="
-        scroll-mt-25
+        scroll-mt-40
         relative
         min-h-screen
         flex
         items-center
         overflow-hidden
         bg-[#f8fbff]
-        pt-40
+        pt-50
         pb-32
       "
     >
@@ -21,19 +21,17 @@ export default function About() {
 
         <div className="absolute top-[-220px] right-[-220px] w-[620px] h-[620px] bg-[#dff7fa] rounded-full blur-[140px] opacity-30" />
 
-        <div className="absolute bottom-[-260px] left-[-220px] w-[520px] h-[520px] bg-[#edf9ff] rounded-full blur-[120px] opacity-25" />
+        <div className="absolute bottom-[-200px] left-[-220px] w-[520px] h-[520px] bg-[#edf9ff] rounded-full blur-[120px] opacity-25" />
 
       </div>
 
-      <div className="relative z-10 w-full max-w-[1700px] mx-auto px-10 lg:px-20">
+      <div className="flex justify-center flex-col items-center z-10 w-full max-w-[1700px] mx-auto px-10 lg:px-20">       
 
-        <div className="grid grid-cols-[1.4fr_1150px_0.6fr] gap-10 items-start">
-
-          <div></div>
+          <div>
 
           <div className="w-full">
 
-            <span className="uppercase tracking-[0.28em] text-[#7f8aa3] text-xs font-semibold">
+            <span className="uppercase tracking-[0.28em] text-[#7f8aa3] text-xs font-semibold mt-2">
               Sobre o QuePeça
             </span>
 
@@ -41,7 +39,7 @@ export default function About() {
               Tecnologia para simplificar a busca por peças automotivas usadas.
             </h2>
 
-            <div className="mt-25 max-w-[1120px]">
+            <div className="mt-10 max-w-[1120px]">
 
               <p className="text-[#4f5665] text-[18px] leading-[2.4] text-justify">
 
@@ -73,22 +71,15 @@ export default function About() {
                 entre consumidores e fornecedores através de uma interface
                 intuitiva, acessível e eficiente.
 
-                <br />
-                <br />
-
               </p>
 
             </div>
 
           </div>
 
-          <div></div>
-
         </div>
 
-        <div className="grid grid-cols-[1.4fr_1150px_0.6fr] mt-48">
-
-          <div></div>
+        <div>
 
           <div className="grid grid-cols-3 gap-8 max-w-[1080px] mx-auto mt-8 items-stretch">
 

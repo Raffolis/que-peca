@@ -57,16 +57,16 @@ export default function Hero() {
 
             <div className="flex items-center gap-5">
 
-              <a
-                href="#sobre"
+              <Link
+                to="/projeto"
                 onClick={handleNavigation}
                 className="min-w-[170px] h-[52px] px-10 rounded-[18px] bg-gradient-to-r from-[#5de0e6] to-[#004aad] text-white text-[15px] leading-none font-semibold shadow-[0_12px_30px_rgba(0,74,173,0.22)] hover:scale-105 transition-all duration-300 flex items-center justify-center"
               >
                 Explorar Projeto
-              </a>
+              </Link>
 
               <Link
-                to="/escopo"
+                to="/desenvolvimento"
                 onClick={handleNavigation}
                 className="min-w-[160px] h-[52px] px-10 rounded-[18px] border border-[#004aad] text-[#004aad] text-[15px] font-semibold bg-white/60 backdrop-blur-md hover:bg-[#004aad] hover:text-white transition-all duration-300 flex items-center justify-center"
               >

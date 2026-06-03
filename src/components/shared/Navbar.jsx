@@ -36,21 +36,21 @@ export default function Navbar() {
               <div className="flex items-center gap-4">
 
                 <Link
-                  to="/#sobre"
+                  to="/projeto#sobre"
                   className="text-[#004aad] font-medium hover:text-[#5de0e6] transition-all duration-300"
                 >
                   Sobre
                 </Link>
 
                 <Link
-                  to="/#problema"
+                  to="/projeto#problema"
                   className="text-[#004aad] font-medium hover:text-[#5de0e6] transition-all duration-300"
                 >
                   Problema
                 </Link>
 
                 <Link
-                  to="/#solucao"
+                  to="/projeto#solucao"
                   className="text-[#004aad] font-medium hover:text-[#5de0e6] transition-all duration-300"
                 >
                   Solução
@@ -71,21 +71,21 @@ export default function Navbar() {
               <div className="flex items-center gap-4">
 
                 <Link
-                  to="/escopo"
+                  to="/desenvolvimento#escopo"
                   className="text-[#004aad] font-medium hover:text-[#5de0e6] transition-all duration-300"
                 >
                   Escopo
                 </Link>
 
                 <Link
-                  to="/escopo#objetivos"
+                  to="/desenvolvimento#objetivos"
                   className="text-[#004aad] font-medium hover:text-[#5de0e6] transition-all duration-300"
                 >
                   Objetivos
                 </Link>
 
                 <Link
-                  to="/escopo#tecnologias"
+                  to="/desenvolvimento#tecnologias"
                   className="text-[#004aad] font-medium hover:text-[#5de0e6] transition-all duration-300"
                 >
                   Tecnologias
