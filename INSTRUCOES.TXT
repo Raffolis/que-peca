@@ -1,0 +1,4 @@
+1. Instalar Node.js
+2. Executar npm install
+3. Executar npm run dev
+4. Abrir http://localhost:5173
